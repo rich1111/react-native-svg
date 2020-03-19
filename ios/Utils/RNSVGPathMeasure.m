@@ -20,7 +20,7 @@ static CGFloat idealFlatness = (CGFloat).01;
 /**
  * returns the distance between two points
  */
-CGFloat distance(CGPoint p1, CGPoint p2)
+static CGFloat distance(CGPoint p1, CGPoint p2)
 {
     CGFloat dx = p2.x - p1.x;
     CGFloat dy = p2.y - p1.y;
